@@ -1,0 +1,11 @@
+#import library
+from moviepy.editor import VideoFileClip
+
+#video that you downloaded
+clip = VideoFileClip("video.mp4")  
+
+#you must write name that you want to create 
+clip.write_gif("mygif.gif")
+
+#that's just all
+
